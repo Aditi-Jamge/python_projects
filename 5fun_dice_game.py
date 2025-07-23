@@ -15,7 +15,7 @@ while True:
         print("Invalid Input")
 
 win_score = 20
-# game_over = False
+game_over = False
 
 while True:
     for player in range(players):
