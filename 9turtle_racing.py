@@ -53,12 +53,6 @@ setup()
 random.shuffle(COLORS)
 colors = COLORS[:racers]
 winner, winner_index = race(colors)
-print(f"The winner is number {winner_index + 1} and colour is {winner}.")
+print(f"The winner number is {winner_index + 1} and turtle colour is {winner}.")
 turtle.done()
-
-
-
-
-
-
 
